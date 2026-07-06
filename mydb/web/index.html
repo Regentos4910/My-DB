@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>mydb</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <nav id="sidebar">
+      <div class="brand">mydb</div>
+      <div class="nav-actions">
+        <button id="btn-new-table" class="nav-btn">+ New Table</button>
+        <button id="btn-schema" class="nav-btn">Schema</button>
+        <button id="btn-export" class="nav-btn">AI Export</button>
+        <button id="btn-advanced" class="nav-btn">Advanced SQL</button>
+      </div>
+      <div class="table-list-label">Tables</div>
+      <ul id="table-list"></ul>
+    </nav>
+    <main id="content">
+      <div class="empty-state">Pick a table on the left, or create one to get started.</div>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
